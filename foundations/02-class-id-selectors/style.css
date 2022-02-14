@@ -1,0 +1,21 @@
+.one{
+    background-color: darkorange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.one.cool{
+    font-size: 32px;
+}
+
+#two{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    font-size: 36px;
+}
+
+#four{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: green;
+    font-size: 24px;
+}
