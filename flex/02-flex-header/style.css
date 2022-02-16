@@ -2,37 +2,37 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
+  margin: 0 -10px;
+  justify-content: center;
+  align-items: center;
   width: max-content;
-  justify-content: space-between;
-
+  column-gap: 20em;
 }
 
-ul {
-  display: flex;
-
+div.right-links {
+  margin-left: auto;
 }
 
-div li {
-  padding: 5px 16px;
-  margin-top: 5px;
+div.left-links {
+  margin-right: auto;
 }
 
-.left-links {
-  justify-content: flex-start;
-}
-
-.right-links {
-  justify-content: flex-start;
-}
 .logo {
-  font-size: 45px;
+  font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin-left: auto;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin: 10px 10px;
+}
+
+ul {
+  display: flex;
+  padding: 0px 5px;
+}
+
+div li {
+  margin: 0 5px;
 }
 
 ul {
